@@ -1,0 +1,36 @@
+<html ng-app="signUpApp">
+<head>
+    <title>RoboMocha Sign-up page</title>
+    <link rel="stylesheet" type='text/css' href='styles.css'>
+</head>
+
+<body>
+    <h2>We are changing the way accounting firms perform their engagements.</h2>
+    <h1>Say Hi to RoboMocha</h1>
+    <div class="intro">
+    
+    <p>Your Junior accountants don’t have to spend hours verifying invoces and records - our smart bot will do it in seconds</p>
+    <p>RoboMocha learns specifics about your engagements</p>
+    <p>Frees up your time and reduces billable hours</p>
+    <p>Artificial Intelligence matches receipts and invoices to G/L records</p>
+    </div>
+    
+    <div ng-controller="signUpController" class="signup-form">
+    
+        <h3>Test it for free, the service will be available in fall 2017 - join our email list</h3>
+        
+        <form method="POST" action="join" class="shift">
+    <input type="text" name="firstName" placeholder="First name"><br><br>
+    <input type="text" name="lastName" placeholder="Last name"><br><br>
+    <input type="email" name="email" placeholder="Email"><br><br>
+    <input type="text" name="city" placeholder="City"><br><br>
+    <input type="text" name="firm" placeholder="Firm">&nbsp;&nbsp;&nbsp;&nbsp;   
+    <input type="submit" class="join" value="Join">
+    
+    </form>
+    </div>    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>    

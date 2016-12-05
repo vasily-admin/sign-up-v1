@@ -1,0 +1,90 @@
+h1 {
+font-family: "Gentium Basic";
+color: #9e552e;
+font-size: 80px;
+font-style: italic;
+text-align: left;
+padding-left: 1.5cm;
+}
+
+h2 {
+font-family: "Gentium Basic";
+color: #9e552e;
+font-size: 40px;
+text-align: left;
+padding-left: 1.5cm;
+}
+
+h3 {
+font-family: "Gentium Basic";
+color: #6b0e22;
+font-size: 60px;
+font-weight: bold;
+text-align: left;
+    
+}
+
+.intro { 
+  color: #000000; 
+  width: 65%;
+}
+
+.signup-form { 
+   padding-left: 8cm;
+  
+}
+
+.join {
+   background-color: #8f0523;  
+    
+}
+
+.shift {
+   padding-left: 4cm;  
+    
+}
+
+.form-submit-button {
+
+background: #0066A2;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+
+}
+
+input {
+    background-color: #6b0e22;
+    border: 0px solid;
+    border-radius: 10px;
+    height: 35px;
+    width: 220px;
+    padding-left: 0.3cm;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+::-webkit-input-placeholder {
+   color: #d5d1d2;
+}
+
+
+p {
+    font-family: "Gentium Basic";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 1.5cm;
+} 
+body {
+    background-image: url("images/background.jpg");
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
